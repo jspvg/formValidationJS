@@ -1,0 +1,21 @@
+body{
+    margin: 10px;
+}
+
+.btn-add{
+    float:right;
+    cursor: pointer;
+}
+
+.err-text{
+    color: red !important;;
+}
+
+.hide {
+    display: none;
+}
+
+.wrapper {
+    margin-top:20px;
+    margin-bottom: 20px;
+}

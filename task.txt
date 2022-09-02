@@ -1,0 +1,36 @@
+Cilj ovog zadatka je napraviti validaciju forme.
+
+Klikom na dugme `Spremi`, treba da se prvo validira forma. Ako ima nevalidnih polja, ispisati errore. Inace ako je sve uredu, prikazati alert `Podaci uspjesno spremljeni`.
+
+Ispod svakog inputa mozete primjetiti div koji u sebi sadrzi error poruku. Npr. `prezimeError`. Svaki od ovih
+div-ova po defaltu ima klasu `hide`. Ukoliko zelite da odredjeni error bude prikazan, dovoljno je da samo uklonite
+klasu `hide`. Te obratno, ako zelite ukloniti neki error - samo dodate klasu `hide`.
+
+Slijedeca validacija treba biti implementirana:
+- Sva polja u formi su obavezna osim checkbox-a
+- Za polje godine, dodatno jos provjeriti da je unesena vrijednost broj
+- Primjetiti cete div sa id-em `emailDiv`. On je po defaultu sakriven (ima klasu `hide`). Tek ukoliko se klikne na checkbox, ovaj div treba da se prikaze (skloniti mu klasu `hide`). 
+Takodjer prilikom validacije, ako je checkbox checkiran email je obavezno polje, inace ako checkbox nije checkiran, email nije obavezno polje.
+
+ZA DODATNU VJEZBU:
+- Implementirati da se validacija svih polja radi na promjenu vrijednosti u input poljima, a ne tek na klik buttona
+
+
+//English translation
+
+The goal of this task is to validate the form.
+
+By clicking the `Save' button, the form should be validated first. If there are invalid fields, print errors. Otherwise, if everything is in order, display the alert ``Data saved successfully''.
+
+Under each input you can notice a div that contains an error message. E.g. `surnameError`. Each of these
+divs has a `hide` class by default. If you want a specific error to be displayed, just remove 
+the `hide` class. And vice versa, if you want to remove an error - just add the `hide` class.
+
+The following validation should be implemented:
+- All fields in the form are mandatory except for the checkbox
+- For the year field, additionally check that the entered value is a number
+- You will notice a div with the id `emailDiv`. It is hidden by default (has the `hide` class). Only if the checkbox is clicked, this div should be displayed (give it the `hide` class). 
+Also during validation, if the checkbox is checked, the email is a mandatory field, otherwise, if the checkbox is not checked, the email is not a mandatory field.
+
+FOR EXTRA EXERCISE:
+- Implement that the validation of all fields is done on the change of value in the input fields, and not only on the click of the button
